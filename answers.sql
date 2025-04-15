@@ -16,5 +16,5 @@ CREATE TABLE student (
 );
 
 -- QUESTION 4
-CREATE INDEX Idxage ON student(age);
+CREATE INDEX IdxStudentage ON student(age);
 
