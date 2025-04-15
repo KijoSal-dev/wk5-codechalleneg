@@ -8,6 +8,13 @@ CREATE TABLE instructors (
 -- QUESTION 2
 CREATE INDEX Idxage ON instructors(age);
 
--- QUESTION 3 
+-- QUESTION 3
+CREATE TABLE student (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    fullName VARCHAR(100),
+    age INT
+);
+
+-- QUESTION 4
 CREATE INDEX Idxage ON student(age);
 

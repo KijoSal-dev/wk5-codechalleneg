@@ -7,4 +7,9 @@ gender (String, maximum length of 10 characters)
 
 2.Write an SQL query to create an index named IdxAge from instructors table.
 
-3.Write an SQL query to create an index named IdxAge from Student table.
+3.Write an SQL query to create a table called student with the following columns:
+ID
+full name (String, maximum length of 100 characters)
+age (Integer)
+
+4.Write an SQL query to create an index named IdxAge from Student table.
